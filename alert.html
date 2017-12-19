@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Alert</title>
+  <script src='js/component.js'></script>
+</head>
+<body>
+<button onclick="showAlert()">打开Alert</button>
+<script>
+  let alert = new AlertClass();
+  alert.onShow = function () {
+    console.log ('先执行内部定义的onShow');
+    console.log ('再执行全局定义的onShow')
+  };
+  alert.onHide = function () {
+    console.log ('执行全局的onHide')
+  };
+  function showAlert () {
+    alert.show({
+      title: '提示标题',
+      content: '提示内容',
+      btnText: '我知道了',
+      onShow: function(){
+        console.log('打开了alert')
+      },
+      onHide: function(){
+        console.log('关闭了alert')
+      }
+    })
+  }
+</script>
+
+</body>
+</html>
