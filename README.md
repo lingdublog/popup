@@ -97,7 +97,7 @@ alert.show({
 alert.hide()
 ```
 
-- 在线示例
+### 在线示例
 [alert展示](http://works.lingdublog.cc/popup/alert.html)
 
 
@@ -165,5 +165,5 @@ confirm.show({
 confirm.hide()
 ```
 
-- 在线示例
+### 在线示例
 [confirm展示](http://works.lingdublog.cc/popup/confirm.html)
