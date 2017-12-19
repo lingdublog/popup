@@ -32,7 +32,7 @@ toast.show(options)
      | onShow | Function  |  无  | 打开时回调|
      | onHide | Function  |  无  | 关闭时回调|
 
-- 示例 （可参考toast.html）
+- 示例 （可参考 [toast.html](https://github.com/lingdublog/popup/blob/master/toast.html) ）
 ```
 toast.show({
     text: '正在加载',
@@ -81,7 +81,7 @@ alert.show(options)
      | onShow | Function  |  无  | 打开时回调|
      | onHide | Function  |  无  | 关闭时回调|
 
-- 示例 （可参考alert.html）
+- 示例 （可参考 [alert.html](https://github.com/lingdublog/popup/blob/master/alert.html) ）
 ```
 alert.show({
     title: '提示标题',
@@ -138,7 +138,7 @@ confirm.show(options)
      | class | String | confirm、cancel | 按钮css类|
      | callback | Function | 无 | 按钮点击回调|
 
-- 示例 （可参考confirm.html）
+- 示例 （可参考 [confirm.html](https://github.com/lingdublog/popup/blob/master/confirm.html) ）
 ```
 confirm.show({
     title: '提示标题',
