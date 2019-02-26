@@ -48,6 +48,9 @@ toast.show({
 toast.hide()
 ```
 
+### 在线示例
+[toast展示](http://works.lingdublog.cc/popup/toast.html)
+
 
 ## 2. alert
 ```
@@ -93,6 +96,9 @@ alert.show({
 ```
 alert.hide()
 ```
+
+### 在线示例
+[alert展示](http://works.lingdublog.cc/popup/alert.html)
 
 
 ## 3. confirm
@@ -159,3 +165,5 @@ confirm.show({
 confirm.hide()
 ```
 
+### 在线示例
+[confirm展示](http://works.lingdublog.cc/popup/confirm.html)
